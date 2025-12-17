@@ -13,11 +13,8 @@ public class DoctorServiceApplication implements CommandLineRunner {
     private DoctorRepository doctorRepository;
 
     public static void main(String[] args) {
+
         SpringApplication.run(DoctorServiceApplication.class, args);
     }
 
-    @Override
-    public void run(String... args) throws Exception {
-        // code de test ici si nécessaire
-    }
 }
